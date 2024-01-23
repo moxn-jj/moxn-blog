@@ -50,19 +50,19 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default',
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: '카테고리',
-  //     pageId: '36400db511474331b5c1de6918212469',
-  //   },
-  //   {
-  //     title: '카테고리',
-  //     pageId: '36400db511474331b5c1de6918212469',
-  //     menuPage: true,
-  //   },
-  // ],
+  // navigationStyle: 'default',
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'EN',
+      pageId: '5055dcee8150412d96f88d625eb02bb7',
+    },
+    {
+      title: 'EN',
+      pageId: '5055dcee8150412d96f88d625eb02bb7',
+      menuPage: true,
+    },
+  ],
 
   // -------- custom configs (2skydev) -------------
 
