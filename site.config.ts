@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'moxn blog',
-  domain: 'moxn.vercel.app',
+  domain: 'moxn-blog.pages.dev',
   author: 'moxn',
 
   // open graph metadata (optional)
