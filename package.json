@@ -91,7 +91,9 @@
   "resolutions": {
     "next-api-og-image/chrome-aws-lambda": "6.0.0",
     "next-api-og-image/puppeteer-core": "6.0.0",
-    "lqip-modern/sharp": "0.30.5"
+    "lqip-modern/sharp": "0.30.5",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14"
   },
   "overrides": {
     "next-api-og-image": {

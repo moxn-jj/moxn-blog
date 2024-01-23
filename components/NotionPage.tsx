@@ -6,7 +6,7 @@ import * as React from 'react';
 import BodyClassName from 'react-body-classname';
 // core notion renderer
 import { NotionRenderer } from 'react-notion-x';
-// import TweetEmbed from 'react-tweet-embed';
+import TweetEmbed from 'react-tweet-embed';
 import { useSearchParam } from 'react-use';
 
 import cs from 'classnames';
@@ -95,9 +95,9 @@ const Modal = dynamic(
   },
 );
 
-// const Tweet = ({ id }: { id: string }) => {
-//   return <TweetEmbed tweetId={id} />;
-// };
+const Tweet = ({ id }: { id: string }) => {
+  return <TweetEmbed tweetId={id} />;
+};
 
 const propertyLastEditedTimeValue = ({ block, pageHeader }, defaultFn: () => React.ReactNode) => {
   if (pageHeader && block?.last_edited_time) {
@@ -150,7 +150,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
       Equation,
       Pdf,
       Modal,
-      // Tweet,
+      Tweet,
       Header: NotionPageHeader,
       propertyLastEditedTimeValue,
       propertyTextValue,
